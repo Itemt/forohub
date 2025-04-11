@@ -1,5 +1,3 @@
-Claro, aquí tienes el contenido del README.md listo para copiar y pegar en GitHub:
-
 ```markdown
 # ForoHub
 
