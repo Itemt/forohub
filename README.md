@@ -1,85 +1,87 @@
-ForoHub
-ForoHub es una aplicación desarrollada en Java que tiene como objetivo proporcionar una plataforma para la creación y gestión de foros de discusión. Este proyecto está estructurado utilizando Maven para la gestión de dependencias y la construcción del proyecto.​
+Claro, aquí tienes el contenido del README.md listo para copiar y pegar en GitHub:
 
-Características
-Creación y gestión de temas de discusión.​
+```markdown
+# ForoHub
 
-Sistema de autenticación de usuarios.​
+ForoHub es una aplicación desarrollada en Java que tiene como objetivo proporcionar una plataforma para la creación y gestión de foros de discusión. Este proyecto utiliza Maven para la gestión de dependencias y la construcción del proyecto.
 
-Interfaz intuitiva para la interacción entre usuarios.​
+## Características
 
-Soporte para múltiples categorías y subforos.​
+- Creación y gestión de temas de discusión.
+- Sistema de autenticación de usuarios.
+- Interfaz intuitiva para la interacción entre usuarios.
+- Soporte para múltiples categorías y subforos.
 
-Tecnologías utilizadas
-Java 17​
+## Tecnologías utilizadas
 
-Maven​
+- Java 17
+- Maven
+- Spring Boot (si aplica)
+- Base de datos relacional (por ejemplo, MySQL o PostgreSQL)
+- Thymeleaf u otro motor de plantillas (si aplica)
 
-Spring Boot (si aplica)​
+## Requisitos previos
 
-Base de datos relacional (por ejemplo, MySQL o PostgreSQL)​
+- Java 17 o superior instalado.
+- Maven instalado.
+- Base de datos configurada y en funcionamiento.
 
-Thymeleaf o cualquier motor de plantillas (si aplica)​
+## Instalación
 
-Requisitos previos
-Java 17 o superior instalado en tu sistema.​
+1. Clona el repositorio:
 
-Maven instalado para la gestión del proyecto.​
+   ```bash
+   git clone https://github.com/Itemt/forohub.git
+   ```
 
-Base de datos configurada y en funcionamiento.​
+2. Navega al directorio del proyecto:
 
-Instalación
-Clona el repositorio:​
+   ```bash
+   cd forohub
+   ```
 
-bash
-Copiar
-Editar
-git clone https://github.com/Itemt/forohub.git
-Navega al directorio del proyecto:​
+3. Compila el proyecto:
 
-bash
-Copiar
-Editar
-cd forohub
-Compila el proyecto utilizando Maven:​
+   ```bash
+   mvn clean install
+   ```
 
-bash
-Copiar
-Editar
-mvn clean install
-Ejecuta la aplicación:​
+4. Ejecuta la aplicación:
 
-bash
-Copiar
-Editar
-mvn spring-boot:run
-Uso
-Una vez que la aplicación esté en funcionamiento, accede a http://localhost:8080 en tu navegador para interactuar con la plataforma ForoHub.​
+   ```bash
+   mvn spring-boot:run
+   ```
 
-Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas mejorar ForoHub, por favor sigue estos pasos:​
+## Uso
 
-Haz un fork del repositorio.​
+Una vez que la aplicación esté corriendo, accede a `http://localhost:8080` desde tu navegador para interactuar con ForoHub.
 
-Crea una nueva rama para tu funcionalidad:​
+## Contribuciones
 
-bash
-Copiar
-Editar
-git checkout -b nueva-funcionalidad
-Realiza tus cambios y haz commit:​
+¡Las contribuciones son bienvenidas! Para colaborar:
 
-bash
-Copiar
-Editar
-git commit -m "Agrega nueva funcionalidad"
-Haz push a tu rama:​
+1. Haz un fork del repositorio.
+2. Crea una nueva rama:
 
-bash
-Copiar
-Editar
-git push origin nueva-funcionalidad
-Abre un Pull Request en GitHub.​
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
 
-Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
+3. Realiza tus cambios y haz commit:
+
+   ```bash
+   git commit -m "Descripción de tus cambios"
+   ```
+
+4. Sube los cambios a tu fork:
+
+   ```bash
+   git push origin nombre-de-tu-rama
+   ```
+
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+```
